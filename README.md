@@ -190,6 +190,12 @@ public class TryCatch
 คำสั่ง ```throw``` ใช้เพื่อเปลี่ยนเส้นทางการทำงานของโปรแกรมโดยเจาะจง exception เป้าหมาย
 
 **ตัวอย่าง** การดักจับข้อผิดพลาดหลายๆ รูปแบบ
+### ใส่รูปใต้โจทย์ไม่ได้ ขออนุญาตใส่ตรงนี้คะ
+
+<img src ="https://github.com/Hathaichanok241/LAB-08/blob/master/imgs/34.1.PNG?raw=true">
+<img src ="https://github.com/Hathaichanok241/LAB-08/blob/master/imgs/34.2.PNG?raw=true">
+<img src ="https://github.com/Hathaichanok241/LAB-08/blob/master/imgs/34.3.PNG?raw=true">
+<img src ="https://github.com/Hathaichanok241/LAB-08/blob/master/imgs/34.4.PNG?raw=true">
 ```csharp
 using System;
 using System.IO;
@@ -241,7 +247,7 @@ public class ExceptionLearning
             Console.WriteLine("NullReferenceException");
             Console.WriteLine(e.Message);
         
-        }
+        } 
         catch (Exception e)
         {
             Console.WriteLine("Exception");
@@ -254,6 +260,8 @@ public class ExceptionLearning
     }
  }
 ````
+
+
 
 ###เรื่องของ exception นี้ศึกษาเพิ่มเติมได้ [ที่นี่](http://msdn.microsoft.com/en-us/library/vstudio/2w8f0bss%28v=vs.100%29.aspx)
 
